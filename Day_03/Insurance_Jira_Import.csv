@@ -1,0 +1,20 @@
+Issue ID,Parent,Issue Type,Summary,Description,Status,Story Points,MoSCoW,Business Value
+101,,Epic,Claim Registration,,To Do,,,
+102,,Epic,Document Upload,,To Do,,,
+103,,Epic,Claim Tracking,,To Do,,,
+104,,Epic,Settlement Notifications,,To Do,,,
+1,101,Story,Select an eligible policy,"As a policyholder, I want to select an eligible policy so that I can register against the correct cover.
+Given two eligible policies, when the policy step opens, then both are selectable and expired policies are excluded.",To Do,3,Must,10
+2,101,Story,Enter my incident date,"As a policyholder, I want to enter my incident date so that I can identify when the loss occurred.
+Given a future incident date, when the policyholder continues, then an inline error appears and the submission remains a draft.",To Do,2,Must,10
+3,101,Story,Submit my incident details,"As a policyholder, I want to submit my incident details so that I can receive a claim reference.
+Given valid incident details and an eligible policy, when the policyholder submits, then one claim is recorded and a reference is displayed.",To Do,5,Must,10
+4,102,Story,Upload one supporting photo,"As a policyholder, I want to upload one supporting photo so that I can show damage.",To Do,5,Must,9
+5,102,Story,Replace a rejected photo,"As a policyholder, I want to replace a rejected photo so that I can correct my evidence.",To Do,3,Should,7
+6,102,Story,Download an upload receipt,"As a policyholder, I want to download an upload receipt so that I can retain proof of submission.",To Do,2,Could,5
+7,103,Story,See my claim status,"As a policyholder, I want to see my claim status so that I can understand progress.",To Do,3,Must,9
+8,103,Story,See the last status change date,"As a policyholder, I want to see the last status change date so that I can know when it moved.",To Do,2,Could,5
+9,103,Story,See outstanding actions,"As a policyholder, I want to see outstanding actions so that I can respond to requests.",To Do,5,Should,8
+10,104,Story,Receive a settlement email,"As a policyholder, I want to receive a settlement email so that I can learn when payment is approved.",To Do,5,Should,8
+11,104,Story,See the settlement amount in the portal,"As a policyholder, I want to see the settlement amount in the portal so that I can verify the payment.",To Do,3,Should,7
+12,104,Story,Manage my notification preferences,"As a policyholder, I want to manage my notification preferences so that I can control optional alerts.",To Do,3,Could,4

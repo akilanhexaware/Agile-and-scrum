@@ -1,0 +1,21 @@
+Issue ID,Parent,Issue Type,Summary,Description,Status,Story Points,MoSCoW,Business Value
+101,,Epic,Browse and Search,,To Do,,,
+102,,Epic,Cart and Checkout,,To Do,,,
+103,,Epic,Delivery Tracking,,To Do,,,
+1,101,Story,Find a product by name,"As a shopper, I want to find a product by name so that I can find an item quickly.
+Given matching products exist, when a shopper searches by name, then matching names appear.",To Do,3,Must,9
+2,101,Story,Filter products by category,"As a shopper, I want to filter products by category so that I can narrow a long list.",To Do,2,Should,8
+3,101,Story,See stock availability,"As a shopper, I want to see stock availability so that I can avoid ordering unavailable items.
+Given an item has zero sellable stock, when its page loads, then it displays Out of stock and disables Add.",To Do,3,Must,9
+4,101,Story,See unit prices,"As a shopper, I want to see unit prices so that I can compare pack sizes.",To Do,2,Could,5
+5,102,Story,Add an in-stock item to my cart,"As a shopper, I want to add an in-stock item to my cart so that I can build an order.
+Given one item remains, when a shopper adds one, then the cart shows one unit and its price.",To Do,3,Must,10
+6,102,Story,Change cart quantities,"As a shopper, I want to change cart quantities so that I can match household needs.",To Do,3,Should,8
+7,102,Story,Select a delivery window,"As a shopper, I want to select a delivery window so that I can be home at delivery.
+Given a window becomes full, when a shopper selects it, then checkout shows an availability message and keeps the cart.",To Do,5,Must,9
+8,102,Story,Pay for the order,"As a shopper, I want to pay for the order so that I can confirm my purchase.
+Given payment is approved, when checkout returns, then the order shows a confirmation reference.",To Do,8,Must,10
+9,103,Story,See the current order status,"As a shopper, I want to see the current order status so that I can plan for arrival.",To Do,3,Should,8
+10,103,Story,Receive an out-for-delivery alert,"As a shopper, I want to receive an out-for-delivery alert so that I can prepare to receive delivery.",To Do,5,Could,5
+11,103,Story,View my delivery address,"As a shopper, I want to view my delivery address so that I can check where the order will arrive.",To Do,2,Could,5
+12,103,Story,Rate a completed delivery,"As a shopper, I want to rate a completed delivery so that I can share feedback.",To Do,2,Won’t this release,2
